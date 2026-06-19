@@ -63,7 +63,6 @@ async function getImages(propertyId) {
 }
 
 // GET all properties (with their images)
-// GET all properties (with their images)
 app.get("/properties", async (req, res) => {
   try {
     const result = await pool.query(
