@@ -1,11 +1,4 @@
 require("dotenv").config();
-console.log(
-  "ALL ENV KEYS:",
-  Object.keys(process.env).filter(
-    (k) =>
-      k.startsWith("DB_") || k.startsWith("CLOUDINARY_") || k === "JWT_SECRET",
-  ),
-);
 const express = require("express");
 const { Pool } = require("pg");
 const multer = require("multer");
