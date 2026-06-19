@@ -14,7 +14,7 @@ export default function Navbar() {
         >
           <img
             src="/images/logo.png"
-            alt="Ocampo-Padawag Realty"
+            alt="Casa Realty"
             className="h-12"
           />
         </Link>

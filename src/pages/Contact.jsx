@@ -23,7 +23,7 @@ export default function Contact() {
             </div>
             <div className="flex items-center gap-3">
               <span className="text-2xl">✉️</span>
-              <span className="text-gray-700">karenpadawag@gmail.com</span>
+              <span className="text-gray-700">info@casarealty-demo.com</span>
             </div>
           </div>
 

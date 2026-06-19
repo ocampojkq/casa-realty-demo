@@ -7,7 +7,7 @@ export default function Footer() {
         <div>
           <img
             src="/images/logo.png"
-            alt="Ocampo-Padawag Realty"
+            alt="Casa Realty"
             className="h-14 mb-3 bg-white p-2 rounded"
           />
           <p className="text-sm text-gray-400">
@@ -46,14 +46,14 @@ export default function Footer() {
           <ul className="space-y-2 text-sm text-gray-400">
             <li>📍 Davao City, Philippines</li>
             <li>📞 +63 912 345 6789</li>
-            <li>✉️ info@ocampopadawagrealty.com</li>
+            <li>✉️ info@casarealty-demo.com</li>
           </ul>
         </div>
       </div>
 
       <div className="border-t border-gray-800 py-4 text-center text-sm text-gray-500">
         <p>
-          © {new Date().getFullYear()} Ocampo-Padawag Realty. All rights
+          © {new Date().getFullYear()} Casa Realty. All rights
           reserved.
         </p>
         <p className="mt-1">

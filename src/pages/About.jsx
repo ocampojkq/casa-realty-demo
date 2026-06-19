@@ -3,12 +3,12 @@ export default function About() {
     <div className="min-h-screen bg-gray-50 p-6">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold mb-6" style={{ color: "#055380" }}>
-          About Ocampo-Padawag Realty
+          About Casa Realty
         </h1>
 
         <div className="bg-white rounded-2xl shadow-md p-8">
           <p className="text-gray-700 leading-relaxed mb-4">
-            Ocampo-Padawag Realty is dedicated to helping families and
+            Casa Realty is dedicated to helping families and
             individuals find their perfect home. With a deep understanding of
             the local market and a commitment to honest, personalized service,
             we make the process of buying, selling, or renting property simple
