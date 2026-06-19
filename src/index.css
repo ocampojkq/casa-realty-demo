@@ -1,0 +1,33 @@
+@import "tailwindcss";
+:root {
+  --brand-dark: #055380;
+  --brand-light: #2f9cd7;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+.fade-in-delay-1 {
+  animation-delay: 0.05s;
+}
+.fade-in-delay-2 {
+  animation-delay: 0.1s;
+}
+.fade-in-delay-3 {
+  animation-delay: 0.15s;
+}
