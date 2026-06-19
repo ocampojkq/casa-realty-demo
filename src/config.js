@@ -1,4 +1,4 @@
-export const API = "https://ocampo-padawag-realty.onrender.com";
+export const API = "https://casa-realty-demo.onrender.com";
 
 export function getImageUrl(url) {
   if (!url) return "";
